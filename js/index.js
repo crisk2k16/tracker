@@ -50,7 +50,7 @@ var app = {
         }
       });
     }, function() { // onError
-      console.log('code: ' + error.code + '\n' + 'message: ' + error.message + '\n');
+//      console.log('code: ' + error.code + '\n' + 'message: ' + error.message + '\n');
     }, {
       timeout: 30000
     });
@@ -64,6 +64,6 @@ var app = {
     listeningElement.setAttribute('style', 'display:none;');
     receivedElement.setAttribute('style', 'display:block;');
 
-    console.log('Received Event: ' + id);
+//    console.log('Received Event: ' + id);
   }
 };
