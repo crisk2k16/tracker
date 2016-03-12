@@ -42,11 +42,11 @@ var app = {
         dataType: "json",
         data: position,
         success: function(data) {
-          console.log('OK: ' + data);
+          //console.log('OK: ' + data);
         },
         error: function(e) {
-          console.log('Error:');
-          console.log(e);
+          //console.log('Error:');
+          //console.log(e);
         }
       });
     }, function() { // onError
